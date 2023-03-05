@@ -1,5 +1,7 @@
 # ap-kakomon-for-brave
 
+応用情報技術者試験対策
+
 某AP過去問サイトの解説をAdBlockerが有効でも表示できるようにするスクリプト
 （Brave Browserで動作確認済）
 
