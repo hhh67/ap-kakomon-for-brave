@@ -1,6 +1,7 @@
 # ap-kakomon-for-brave
 
 某AP過去問サイトの解説がAdBlockerが有効でも表示できるようにするスクリプト
+（Brave Browserで動作確認済）
 
 ## ブラウザで有効化する方法
 
