@@ -1,6 +1,6 @@
 # ap-kakomon-for-brave
 
-某AP過去問サイトの解説がBraveでも表示できるようにするスクリプト
+某AP過去問サイトの解説がAdBlockerが有効でも表示できるようにするスクリプト
 
 ## Chrome extension作成参考記事
 
