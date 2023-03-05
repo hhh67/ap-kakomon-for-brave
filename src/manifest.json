@@ -1,0 +1,13 @@
+{
+    "name": "ApKakomonDisplay",
+    "short_name": "ApDisplay",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "description": "某AP過去問サイトの解説をどのブラウザでも表示できるようにします。",
+    "content_scripts": [{
+      "matches": ["https://www.ap-siken.com/apkakomon.php"],
+      "js": [
+        "remove.js"
+      ]
+    }]
+  }
