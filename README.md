@@ -2,7 +2,13 @@
 
 某AP過去問サイトの解説がAdBlockerが有効でも表示できるようにするスクリプト
 
-## Chrome extension作成参考記事
+## ブラウザで有効化する方法
+
+1. `git clone`
+2. 拡張機能の設定画面でデベロッパーモードをオン
+3. 「パッケージ化されていない拡張機能を読み込む」でsrcを選択
+
+## 参考記事
 
 https://qiita.com/RyBB/items/32b2a7b879f21b3edefc
 
