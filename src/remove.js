@@ -5,7 +5,16 @@ Array.prototype.forEach.call(selectBtnList, (selectBtn) => {
         Array.prototype.forEach.call(ansbgList, (ansbg) => {
             ansbg.style = '';
         })
-        const p = document.querySelector('#kaisetsu > p')
+        const p = document.querySelector('#kaisetsu > p');
         p.style.display = 'none';
     })
+})
+
+const answerCheck = document.getElementById('answerCheck');
+answerCheck.addEventListener('click', () => {
+    Array.prototype.forEach.call(ansbgList, (ansbg) => {
+        ansbg.styly = '';
+    })
+    const p = document.querySelector('#kaisetsu > p');
+    p.style.display = 'none';
 })
