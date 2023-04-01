@@ -15,6 +15,8 @@ answerCheck.addEventListener('click', () => {
     Array.prototype.forEach.call(ansbgList, (ansbg) => {
         ansbg.styly = '';
     })
-    const p = document.querySelector('#kaisetsu > p');
-    p.style.display = 'none';
+    const pList = document.querySelectorAll('#kaisetsu > p');
+    Array.prototype.forEach.call(pList, (p) => {
+        p.style.display = 'none';
+    })
 })
