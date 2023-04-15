@@ -13,7 +13,7 @@ Array.prototype.forEach.call(selectBtnList, (selectBtn) => {
 const answerCheck = document.getElementById('answerCheck');
 answerCheck.addEventListener('click', () => {
     Array.prototype.forEach.call(ansbgList, (ansbg) => {
-        ansbg.styly = '';
+        ansbg.style = '';
     })
     const pList = document.querySelectorAll('#kaisetsu > p');
     Array.prototype.forEach.call(pList, (p) => {
